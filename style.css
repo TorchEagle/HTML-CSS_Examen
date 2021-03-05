@@ -1,0 +1,135 @@
+@font-face {
+    font-family: AyakaKanadaka;
+    src: url(Fuentes/AkayaKanadaka-Regular.ttf);
+}
+
+html {
+    background-color: palegoldenrod;
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: 'AyakaKanadaka';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(247, 179, 125);
+    text-shadow: red 5px 0px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+nav {
+    border: 1px solid red;
+    background-color: rgb(247, 239, 125);
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(247, 179, 125);
+    color: white;
+    border: 1px solid red;
+}
+
+li:hover {
+    background-color: rgb(255, 60, 0);
+}
+
+hr {
+    margin: 0px;
+    border-style: none;
+}
+
+hr.inicio {
+    height: 20px;
+    background-image: url(img/naranja2.svg);
+}
+
+hr.fin {
+    position: relative;
+    top: 10px;
+    height: 30px;
+    background-image: url(img/naranja2.svg);
+}
+
+hr.naranja {
+    background-color: rgb(240, 167, 107);
+}
+
+p {
+    position: absolute;
+}
+
+p.rojo {
+    border: 3px solid red;
+    background-color: rgb(255, 176, 130);
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    height: 30%;
+    color: red;
+    text-decoration: overline;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+    z-index: 1;
+}
+
+p.amarillo {
+    border: 3px solid rgb(182, 205, 50);
+    background-color: rgb(215, 228, 103);
+    top: 45%;
+    left: 5%;
+    right: 55%;
+    height: 30%;
+    color: orange;
+    text-align: left;
+    letter-spacing: 5px;
+    padding-right: 50px;
+
+}
+
+p.azul {
+    border: 3px solid rgb(134, 203, 206);
+    background-color: rgb(176, 221, 224);
+    top: 45%;
+    left: 55%;
+    right: 5%;
+    height: 30%;
+    color: orange;
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 80px;;
+}
+
+p.pie {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(247, 239, 125);
+    color: red;;
+}
+
+p:hover {
+    z-index: 1;
+}
